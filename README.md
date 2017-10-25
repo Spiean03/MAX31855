@@ -30,7 +30,8 @@ See max31855.py for a multi-chip example.
 
 See picture master_slave.png as an example. In this case Master is the Pi, and Slaves are the MAX31855's. SS (Slave Select) is the same as CS (Chip Select).
 
-''''
+```python
+
 from max31855 import MAX31855, MAX31855Error
 
 cs_pin_1=24
@@ -43,4 +44,5 @@ units = "f"
 thermocouple1=MAX31855(cs_pin_1, clock_pin, data_pin, units)
 thermocouple2=MAX31855(cs_pin_2, clock_pin, data_pin, units)
 thermocouple3=MAX31855(cs_pin_3, clock_pin, data_pin, units)
-''''
+
+```
