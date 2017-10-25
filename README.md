@@ -1,8 +1,4 @@
-# MAX31855
-Python-script to read out temperature from MAX31855 hooked up to a Raspberry PI
-
 Python driver for [MAX31855 Cold-Junction Compensated Thermocouple-to-Digital Converter](http://www.maximintegrated.com/datasheet/index.mvp/id/7273)
-
 
 Requires:
 - The [GPIO Library](https://code.google.com/p/raspberry-gpio-python/) (Already on most Raspberry Pi OS builds)
